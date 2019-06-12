@@ -1,8 +1,10 @@
-FROM erlang:21
+FROM erlang:22
 
 # elixir expects utf8.
 ENV ELIXIR_VERSION="v1.8.2" \
 	LANG=C.UTF-8
+
+RUN apt-get update && apt-get install -y locales
 
 RUN set -xe \
 	&& ELIXIR_DOWNLOAD_URL="https://github.com/elixir-lang/elixir/archive/${ELIXIR_VERSION}.tar.gz" \
