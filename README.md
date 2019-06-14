@@ -9,6 +9,6 @@ Press F1 to pull up the Command Palette, type or select "Remote-Containers: Open
 ## Container Terminal
 You might need to type in a command into the container using the terminal. If you don't see the terminal pane, go to View menu and select Terminal.
 
-![Image of Visual Studio Code Terminal](https://imgur.com/MtRa45D)
+![Image of Visual Studio Code Terminal](https://i.ibb.co/wNzB3x8/2019-06-14-10-58-28.png)
 
 The red box shows the terminal pane, and the yellow pane shows the select box which you need to click on the drop down menu and select the bash option.
